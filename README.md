@@ -4,3 +4,4 @@ The Powder Toy Multiplayer Server, coded in Javascript. A good alternative if yo
 Original server code: https://github.com/The-Powder-Toy/tptmp
 
 # Running the server
+As of now, the entire thing is a WIP. 
