@@ -1,0 +1,13 @@
+{
+  "name": "tptmp-js",
+  "author": "Voxelstice",
+  "description": "The Powder Toy Multiplayer Server, coded in Javascript. A good alternative if you dont have Linux.",
+  "version": "0.0.1a",
+  "main": "server.js",
+
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
