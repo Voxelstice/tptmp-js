@@ -1,5 +1,25 @@
 // This code is what starts and monitors the server
 // Although it's really bad and non-functional
+
+/*
+Want to help fix this? Go ahead, the error is:
+
+Trace: Error: spawn nodemon ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:283:19)
+    at onErrorNT (node:internal/child_process:478:16)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'spawn nodemon',
+  path: 'nodemon',
+  spawnargs: [
+    './server.js',
+    '--watch',
+    './index.js'
+  ]
+}
+*/
+
 var nodemon = require("nodemon")
 var process = require("node:child_process")
 var utilities = require("./common/utilities")
