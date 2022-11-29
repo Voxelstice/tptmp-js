@@ -1,5 +1,5 @@
 # tptmp-js
-The Powder Toy Multiplayer Server, coded in Javascript. A good alternative if you dont have Linux.
+The Powder Toy Multiplayer Server, coded in Javascript. A good alternative if you dont have Linux. This is also made to be ran with nodemon for the remote console stuff commands or whatever.
 
 Original server code: https://github.com/The-Powder-Toy/tptmp
 
