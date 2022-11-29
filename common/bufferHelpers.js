@@ -1,4 +1,6 @@
 /*
+Just saving the functions here so I can look at them while converting the code to javascript
+
 function client_i:read_str24_()
 	local length1, length2, length3 = self:read_bytes_(3)
 	return self:read_(length3 | (length2 << 8) | (length1 << 16))
@@ -26,8 +28,6 @@ module.exports = {
             }
             return newStr
         },
-        // For SOME reason, this just doesn't work when I run this function like this: module.utils.findIndexInIterator.
-        // What is going on????
         findIndexInIterator: function(iteratorr, indexx) {
             var count = 0
             for (const pair of iteratorr) {
@@ -54,6 +54,7 @@ module.exports = {
             }
             return thing[0], thing[1], thing[2]
         },
+	// Another function to find a specific byte
         bytes2: function(chunk, count) {
             var thing = ""
             var thing2 = module.exports.utils.findIndexInIterator(chunk.entries(), count)
