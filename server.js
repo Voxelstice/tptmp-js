@@ -114,6 +114,7 @@ server.on('connection', async (socket) => {
                 socket.write("0")
 
                 // TODO: Get the client to actually know they succeeded with the handshake
+                // Why? The client doesn't even know the handshake succeeded.
                 
                 clientName = "client-" + handshake[1]
                 insert_client({

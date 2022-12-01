@@ -81,8 +81,8 @@ module.exports = {
             }
             return collect.join("")
         },
-        str8: function(chunk) {
-            
+        str8: function(packet) {
+            return packet.read(module.exports.read.bytes(packet.read(1),1))
         }
     },
     write: {
